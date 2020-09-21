@@ -58,8 +58,10 @@ public class Ansatt {
 
 	@Override
 	public String toString() {
-		return "Ansatt [fornavn=" + fornavn + ", etternavn=" + etternavn + ", stilling=" + stilling + ", aarslonn="
-				+ aarslonn + "]";
+		return "Ansatt [fornavn=" + fornavn + ", etternavn=" + etternavn + ", kjonn=" + kjonn + ", stilling=" + stilling
+				+ ", aarslonn=" + aarslonn + "]";
 	}
+
+	
 
 }
